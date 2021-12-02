@@ -540,11 +540,11 @@ img {
 }
 
 /* --------FOOTER------- */
-
-.footer-container {
+.footer>.container {
   display: flex;
   align-items: baseline;
 }
+
 .footer {
   padding-top: 60px;
   padding-bottom: 60px;
@@ -667,6 +667,8 @@ img {
 .footer-social-icon:hover {
   fill: var(--second-text-color);
 } */
+
+
 
 /*--------SAMPLES-------*/
 
@@ -813,6 +815,7 @@ img {
   left: 50%;
   transform: scale(1) rotate(0) translate(-50%, -50%);
   transition: transform 350ms;
+  padding: 40px;
 }
 .modal-close {
   position: absolute;
@@ -833,3 +836,25 @@ img {
   opacity: 0;
   pointer-events: none;
 }
+.modal-title {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.15;
+  letter-spacing: 0.03em;
+  color: var(--second-title-color);
+  text-align: center;
+  margin-bottom: 12px;
+}
+
+.modal-input {
+  width: 100%;
+  height: 40px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+  padding-left: 15px;
+  outline: none;
+  background-color: transparent;
+  margin-bottom: 10px;
+}
+/*----------FOOTER SUBSCRIBE----------*/
+
