@@ -333,10 +333,44 @@
         </button>
         <p class="modal-title">Оставьте свои данные, мы вам перезвоним</p>
         <form class="modal-form">
-          <input type="text" name="user-name"  class="modal-input"/>
-          <input type="tel" name="user-tel" class="modal-input"/>
-          <input type="email"  name="user-mail" class="modal-input"/>
-          <button type="submit">Отправить</button>
+          <div class="modal-form-field">
+          <label for="user-name" class="input-text">Имя</label>
+          <div class="modal-input-wrap"><input type="text" 
+          name="user-name"  
+          class="modal-input"
+          id="user-name"/>
+        <svg class="input-icon" width="18" height="18">
+          <use href="./images/icons.svg#icon-person-black"></use></svg>
+      </div></div>
+          <div class="modal-form-field">
+          <label for="user-tel" class="input-text">Телефон</label>
+          <div class="modal-input-wrap">
+          <input type="tel" 
+          name="user-tel" 
+          class="modal-input"
+          id="user-tel"/>
+        <svg class="input-icon" width="18" height="18">
+          <use href="./images/icons.svg#icon-phone-black"></use></svg>
+      </div></div>
+         <div class="modal-form-field">
+          <label for="user-mail" class="input-text">Почта</label>
+          <div class="modal-input-wrap">
+          <input type="email"  
+          name="user-mail" 
+          class="modal-input"
+          id="user-mail"/>
+          <svg class="input-icon" width="18" height="18">
+            <use href="./images/icons.svg#icon-email-black">
+          </use></svg>
+         </div>
+       </div>
+          <label name="user-text" class="input-text">Комментарий</label>
+          <textarea 
+          name="user-text" 
+          id="user-text" 
+          class="modal-comment"
+          placeholder="Введите текст"></textarea>
+          <button type="submit" class="modal-btn">Отправить</button>
         </form>
       </div>
      </div>
